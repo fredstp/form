@@ -1,3 +1,5 @@
+<?php 
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +13,7 @@
     <title>Formulaire éligibilité</title>
   </head>
   <body>
-    <form action="form/test.php" method="post">
+    <form action="test.php" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="userName">
