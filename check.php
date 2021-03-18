@@ -48,42 +48,42 @@ if (!empty($incomeMonth) && (!empty($taxIncome)) && (!empty($nbPersonne)))
         if ($checkRevenue == true) {
             header("location: succes.html");
         } else {
-            echo "vous ne respectez pas les critères";
+            echo "Vous n'êtes pas éligible";
         };
     } else if ($nbPersonne === 5) {
         $checkRevenue = checkRevenue($taxIncome,$revenue5['min'],$revenue5['max']);
         if ($checkRevenue == true){
             header("location: succes.html");
         } else {
-            echo "vous ne respectez pas les critères";
+            echo "Vous n'êtes pas éligible";
         }; 
     } else if ($nbPersonne === 4) {
         $checkRevenue = checkRevenue($taxIncome,$revenue4['min'],$revenue4['max']);
         if ($checkRevenue == true){
             header("location: succes.html");
         } else {
-            echo "vous ne respectez pas les critères";
+            echo "Vous n'êtes pas éligible";
         }; 
     } else if ($nbPersonne === 3) {
         $checkRevenue = checkRevenue($taxIncome,$revenue3['min'],$revenue3['max']);
         if ($checkRevenue == true){
             echo header("location: succes.html");
         } else {
-            echo "vous ne respectez pas les critères";
+            echo "Vous n'êtes pas éligible";
         };
     } else if ($nbPersonne === 2) {
         $checkRevenue = checkRevenue($taxIncome,$revenue2['min'],$revenue2['max']);
         if ($checkRevenue == true){
             header("location: succes.html");
         } else {
-            echo "vous ne respectez pas les critères";
+            echo "Vous n'êtes pas éligible";
         };
     } else if ($nbPersonne === 1) {
         $checkRevenue = checkRevenue($taxIncome,$revenue1['min'],$revenue1['max']);
         if ($checkRevenue == true){
             header("location: succes.html");
         }else {
-            echo "vous ne respectez pas les critères";
+            echo echo "Vous n'êtes pas éligible";
         };
     } 
 }
