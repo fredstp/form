@@ -83,7 +83,7 @@ if (!empty($incomeMonth) && (!empty($taxIncome)) && (!empty($nbPersonne)))
         if ($checkRevenue == true){
             header("location: succes.html");
         }else {
-            echo echo "Vous n'êtes pas éligible";
+             echo "Vous n'êtes pas éligible";
         };
     } 
 }

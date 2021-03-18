@@ -1,66 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
 
     <title>Formulaire éligibilité</title>
   </head>
   <body>
     <div class="container d-flex justify-content-center">
-        <div class="row mt-5 align-items-center">
-            <form action="check.php" method="post">
-                <div class="form-group col">
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="userName">
-                </div>
-                <div class="form-group col">
-                    <label for="firstname">Prénom :</label>
-                    <input type="text" id="firstname" name="firstName">
-                </div>
-                <div class="form-group col"> 
-                    <label for="adress">Adresse :</label>
-                    <input type="text" id="adress" name="adress">
-                </div>
-                <div class="form-group col">
-                    <label for="phone">Tel :</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-                <div class="form-group col">
-                    <label for="mail">e-mail :</label>
-                    <input type="email" id="mail" name="mail">
-                </div>
-                <div class="form-group col">
-                    <label for="adultNumber">Nombre d'adulte dans le foyer :</label>
-                    <input type="number" min="0" id="adultNumber" name="adultNumber" >
-                </div>
-                <div class="form-group col">
-                    <label for="childNumber">Nombre d'enfant dans le foyer :</label>
-                    <input type="number" id="childNumber" name="childNumber">
-                </div>
-                <div class="form-group col">
-                    <label for="incomeMonth">Revenu mensuel du foyer :</label>
-                    <input type="number" id="incomeMonth" name="incomeMonth">
-                </div>
-                <div class="form-group col">
-                    <label for="taxIncome">Revenu Fiscal 2019 :</label>
-                    <input type="number" id="taxIncome" name="taxIncome">
-                </div>
-                <div>
-                    <input type="submit" value="Envoyer" name="check">
-                </div>
-            </form>
-        </div>
+      <div class="row mt-5 align-items-center">
+        <form action="check.php" method="post">
+          <div class="form-group col">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="userName" />
+          </div>
+          <div class="form-group col">
+            <label for="firstname">Prénom :</label>
+            <input type="text" id="firstname" name="firstName" />
+          </div>
+          <div class="form-group col">
+            <label for="adress">Adresse :</label>
+            <input type="text" id="adress" name="adress" />
+          </div>
+          <div class="form-group col">
+            <label for="phone">Tel :</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form-group col">
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="mail" />
+          </div>
+          <div class="form-group col">
+            <label for="adultNumber">Nombre d'adulte dans le foyer :</label>
+            <input type="number" min="0" id="adultNumber" name="adultNumber" />
+          </div>
+          <div class="form-group col">
+            <label for="childNumber">Nombre d'enfant dans le foyer :</label>
+            <input type="number" id="childNumber" name="childNumber" />
+          </div>
+          <div class="form-group col">
+            <label for="incomeMonth">Revenu mensuel du foyer :</label>
+            <input type="number" id="incomeMonth" name="incomeMonth" />
+          </div>
+          <div class="form-group col">
+            <label for="taxIncome">Revenu Fiscal 2019 :</label>
+            <input type="number" id="taxIncome" name="taxIncome" />
+          </div>
+          <div>
+            <input type="submit" value="Envoyer" name="check" />
+          </div>
+        </form>
+      </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -69,4 +78,3 @@
     -->
   </body>
 </html>
-
